@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бассейн "Зелёная Волна": Оазис Спокойствия и Здоровья</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Бассейн "Зелёная Волна"</h1>
+            <p>Откройте для себя мир водной гармонии!</p>
+            <a href="#about" class="button">Узнать больше</a>
+        </div>
+        <div class="hero-image"></div>
+    </header>
+
+    <section id="about" class="section animate__animated animate__fadeIn">
+        <div class="container">
+            <h2>О нас</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Бассейн "Зелёная Волна" – это современный спортивно-оздоровительный комплекс, где вы можете насладиться плаванием, укрепить здоровье и отдохнуть душой. Мы предлагаем комфортные условия для людей любого возраста и уровня подготовки.</p>
+                    <ul>
+                        <li>Кристально чистая вода с современной системой очистки.</li>
+                        <li>Просторная чаша бассейна (25 метров).</li>
+                        <li>Опытные инструкторы для персональных и групповых занятий.</li>
+                        <li>Удобные раздевалки и душевые.</li>
+                        <li>Лежаки с видом на бассейн и красивую природу</li>
+                    </ul>
+                </div>
+                <div class="image-slider">
+                    <div class="slides">
+                        <img src="pool_image1.jpg" alt="Фото бассейна 1" class="slide">
+                        <img src="pool_image2.jpg" alt="Фото бассейна 2" class="slide">
+                        <img src="pool_image3.jpg" alt="Фото бассейна 3" class="slide">
+                    </div>
+                    <button class="slider-button prev" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="slider-button next" onclick="changeSlide(1)">&#10095;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="swim_icon.png" alt="Иконка плавания">
+                    <h3>Свободное плавание</h3>
+                    <p>Наслаждайтесь плаванием в удобное для вас время.</p>
+                </div>
+                <div class="service-card">
+                    <img src="training_icon.png" alt="Иконка тренировок">
+                    <h3>Обучение плаванию</h3>
+                    <p>Индивидуальные и групповые занятия для всех уровней.</p>
+                </div>
+                <div class="service-card">
+                    <img src="aquaaerobics_icon.png" alt="Иконка аквааэробики">
+                    <h3>Аквааэробика</h3>
+                    <p>Эффективные и приятные тренировки в воде.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+    </div>
+    <section id="reviews" class="section">
+        <div class="container">
+          <h2>Отзывы наших клиентов</h2>
+          <div class="reviews-grid">
+            <div class="review-card">
+              <p>"Отличный бассейн! Чисто, уютно, профессиональные тренеры. Очень доволен!"</p>
+              <p class="reviewer">- Анна, 28 лет</p>
+            </div>
+             <div class="review-card">
+              <p>"Хожу на аквааэробику - просто супер! Эффект виден сразу, и так приятно заниматься в воде."</p>
+              <p class="reviewer">- Екатерина, 35 лет</p>
+            </div>
+             <div class="review-card">
+              <p>"Научился плавать с нуля! Спасибо инструкторам за терпение и профессионализм."</p>
+               <p class="reviewer">- Иван, 20 лет</p>
+            </div>
+          </div>
+         </div>
+         <div class="container">
+            <h2>Контакты</h2>
+            <div class="contact-info">
+                <p><strong>Адрес:</strong> г. Мытищи, ул. Сукромка, д. 28</p>
+                <p><strong>Телефон:</strong> +7 (905) 595-72-73</p>
+                <p><strong>Email:</strong> GreenWave@support.com</p>
+            </div>
+         <div class="contact-form">
+            <form action="#" method="post">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш Email" required>
+                <textarea placeholder="Ваше сообщение" rows="4" required></textarea>
+                <button type="submit" class="button">Отправить</button>
+           </form>
+       </div>
+       </section>
+    </section>
+    <footer>
+        <p>&copy; 2024 Бассейн "Зелёная Волна". Все права защищены.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
